@@ -1,0 +1,134 @@
+.subs-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 340px;
+  width: 300px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 10px;
+  overflow: auto;
+}
+
+.subs-container ::-webkit-scrollbar {
+  display: none;
+}
+
+.subs-container::-webkit-scrollbar {
+  display: none;
+}
+
+.stars-img {
+  height: 10px;
+}
+.web-name {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 18px;
+  color: white;
+}
+
+.delete-icon {
+  width: max(20px, 2vh);
+}
+.update-icon {
+  width: max(20px, 2vh);
+  color: #ffffff;
+  
+}
+
+.dustbin {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.cont {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.web-names {
+  margin: 0px;
+}
+
+.inp-name {
+  margin: 0px;
+}
+
+.pas-name {
+  margin: 0px;
+}
+
+.blue {
+  background-color: #1e90ff;
+}
+
+.green {
+  background-color: #32cd32;
+}
+
+.purple {
+  background-color: #9370db;
+}
+
+.orange {
+  background-color: #ffa500;
+}
+
+.red {
+  background-color: #ff6347;
+}
+
+.teal {
+  background-color: #20b2aa;
+}
+
+.pink {
+  background-color: #ff69b4;
+}
+
+.yellow {
+  background-color: #ffd700;
+}
+
+.coral {
+  background-color: #ff7f50;
+}
+
+.indigo {
+  background-color: #4b0082;
+}
+
+.bot {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.pas-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.inp-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.web-names {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+
+.pas {
+  margin-top: 0px;
+}
