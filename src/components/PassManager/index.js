@@ -229,7 +229,7 @@ const PassManager = () => {
             />
             <input
               type="search"
-              className="web-inp"
+              className="web-ser"
               value={searchInput}
               onChange={searchResult}
               placeholder="Search"
